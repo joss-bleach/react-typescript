@@ -7,6 +7,9 @@ import Parent from "./props/Parent";
 import GuestList from "./state/GuestList";
 import UserSearch from "./state/UserSearch";
 
+// Event Handling
+import EventComponent from "./events/EventComponent";
+
 const App = () => {
   return <UserSearch />;
 };
