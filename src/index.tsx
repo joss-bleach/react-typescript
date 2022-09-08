@@ -10,8 +10,11 @@ import UserSearch from "./state/UserSearch";
 // Event Handling
 import EventComponent from "./events/EventComponent";
 
+// Refs
+import UserSearchRefs from "./refs/UserSearchRefs";
+
 const App = () => {
-  return <UserSearch />;
+  return <UserSearchRefs />;
 };
 
 ReactDOM.render(<App />, document.querySelector("#root"));
